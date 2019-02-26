@@ -31,6 +31,6 @@ def prime?(num)
   sieve(num).include?(num)
 end	
 	
-
+puts Benchmark.measure
 	
 	
