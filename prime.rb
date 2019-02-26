@@ -32,7 +32,7 @@ def prime?(num)
 end	
 	
 Benchmark.bm do |x|
-  x.report ('prime?')
+  x.report {prime?}
 end
 	
 	
