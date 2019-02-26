@@ -31,8 +31,6 @@ def prime?(num)
   sieve(num).include?(num)
 end	
 	
-Benchmark.bm do |bm|
-  bm.report {prime?}
-end
+
 	
 	
