@@ -32,6 +32,6 @@ def prime?(num)
 end	
 	
 Benchmark.bm do |x|
-  x.report
+  x.report ()
 	
 	
