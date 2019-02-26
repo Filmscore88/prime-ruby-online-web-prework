@@ -31,6 +31,6 @@ def prime?(num)
   sieve(num).include?(num)
 end	
 	
-Benchmark.bm do|bm|bm('prime'){prime?(10000)}
+Benchmark.bm|bm|d0  bm {prime?(10000)}
 end	
 	
